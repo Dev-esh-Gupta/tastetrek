@@ -1,0 +1,59 @@
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% include "header.html" %}
+
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/img/home-bg.png')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="site-heading">
+          <h3>Tasty Food at Your Door Step</h3>
+          <span class="subheading">Savor affordable, flavorful meals. Diverse menu, quality ingredients, prompt service. Your favorite dishes, conveniently delivered to you.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Main Content-->
+<div class="container px-4 px-lg-5">
+  <div class="row gx-4 gx-lg-5 justify-content-center">
+    <div class="col-md-10 col-lg-8 col-xl-7">
+      <!-- Post preview-->
+      <div class="d-flex mb-4 justify-content-center" style="color: red;"><h1>Log in to
+        <span class="company">Taste<span class="company-2">Trek</span></span></h1>
+      </div>
+        {% if not logged_in %}
+
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          {% for message in messages %}
+            <p>{{ message }}</p>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+      {{ render_form(form, novalidate=True, button_map={"submit" : "primary"}) }}
+
+      <div class="d-flex justify-content-end">
+        <div class="col forget-pass-link">
+                      <a href="#">Forget Password?</a>
+                    </div>
+      </div>
+
+      <div class="d-flex justify-content-end mb-4">
+        <div class="sign-redirect">
+                  <p>Don't have an account? <a href="{{ url_for('register') }}" style="font-size: 25px">Register</a></p>
+                </div>
+      </div>
+      {% else %}
+      <h3>You are already Logged In!</h3>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+{% include "footer.html" %}

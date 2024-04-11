@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/deves/OneDrive/Desktop/NITW/Entrepreneurial Journey/tastetrek/instance/tastetrek.db" readonly="0" foreign_keys="" case_sensitive_like="" temp_store="" wal_autocheckpoint="" synchronous=""/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1401"/><column_width id="4" width="0"/></tab_structure><tab_browse><current_table name="0,0:"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">insert into menu (title, description, price, offer_price, item_url) values 
+('Regular Thanli', 'Roti-4, Rice-300g, Matar-Paneer, Achar, Aalu Gobi', 150, 120, 'https://www.easycheesyvegetarian.com/wp-content/uploads/2018/05/Easy-vegetarian-mezze-platter-4.jpg');
+insert into menu (title, description, price, offer_price, item_url) values 
+('Regular Thanli', 'Roti-4, Rice-300g, Matar-Paneer, Achar, Aalu Gobi', 150, 120, 'https://www.easycheesyvegetarian.com/wp-content/uploads/2018/05/Easy-vegetarian-mezze-platter-4.jpg');
+insert into menu (title, description, price, offer_price, item_url) values 
+('Chinese Thanli', 'Roti-4, Rice-300g, Matar-Paneer, Achar, Aalu Gobi', 150, 120, 'https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-consists-variety-veggies-lentils-sweet-dish-snacks-etc-selective-focus_726363-565.jpg');
+insert into menu (title, description, price, offer_price, item_url) values 
+('Special Thanli', 'Roti-4, Rice-300g, Matar-Paneer, Achar, Aalu Gobi', 150, 120, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvd4BmHzcy4boPL0pbkIyM7ZySKyyNMV_yt-2Svg1PkA&amp;s');
+insert into menu (title, description, price, offer_price, item_url) values 
+('Biryani', 'Roti-4, Rice-300g, Matar-Paneer, Achar, Aalu Gobi', 150, 120, 'https://www.madhuseverydayindian.com/wp-content/uploads/2022/11/easy-vegetable-biryani.jpg');</sql><current_tab id="0"/></tab_sql></sqlb_project>

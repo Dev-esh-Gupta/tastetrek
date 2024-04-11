@@ -1,0 +1,85 @@
+/* body{
+    background-color: greenyellow;
+} */
+
+.highlight{
+    height: 600px;
+    background-image: url('./images/home-page-1.png');
+    background-size: cover;
+    background-position: center;
+    /* opacity: 1; */
+    color: lightyellow;
+    position: relative;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.highlight-2{
+    padding: 0px 50px;
+    text-align: left;
+    height: 600px;
+}
+
+.company{
+    font-size: 50;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: green;
+}
+
+.company-2{
+    color: red;
+}
+
+.boundary{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 50px;
+    /* height: 600px; */
+}
+
+.abt{
+    position: absolute;
+    top: 30%;
+    padding: 1%;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.sign-redirect{
+    text-align: center;
+}
+
+.sign-redirect a{
+    font-size: large;
+    text-decoration: none;
+    font-weight: 700;
+    color: red;
+}
+
+.forget-pass-link{
+   /* padding-top: 15px; */
+    text-align: right;
+}
+
+.forget-pass-link a{
+    text-decoration: none;
+   /* padding-top: 20px; */
+    /* color: grey; */
+}
+
+.original-price{
+    margin-top: 10px;
+    text-decoration: line-through;
+    color: grey;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.offer-price{
+    font-weight: 800;
+    font-size: 40px;
+}
